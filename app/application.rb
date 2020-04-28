@@ -9,6 +9,7 @@ class Application
       #resp.write time1.hour
     elsif time1.hour >= 12
       resp.write "Good Afternoon!"
+      #resp.write time1.hour
     end
 
     resp.finish
